@@ -1,12 +1,14 @@
 import React from 'react';
-import './App.css';
-import Header from './Components/Header/Header';
+import PokedexPage from './Components/Pages/PokedexPage';
+import PokemonDetailPage from './Components/Pages/PokemonDetailPagesPage';
+import PokemonsListPage from './Components/Pages/PokemonsListPage';
 
 function App() {
   return (
-    <div className="App">
-     <Header />
-     
+    <div>
+     <PokedexPage />
+     <PokemonDetailPage />
+     <PokemonsListPage />
     </div>
   );
 }
