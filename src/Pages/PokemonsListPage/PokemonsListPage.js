@@ -1,6 +1,7 @@
 import React from 'react';
-import Header from './Components/Header/Header';
-import PokemonCard from './Components/PokemonCard/PokemonCard';
+import { Header } from '../../Components/Header/Header';
+import PokemonCard from '../../Components/PokemonCard/PokemonCard';
+
 
 const PokemonsListPage = () => {
     return (

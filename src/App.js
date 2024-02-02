@@ -1,7 +1,8 @@
 import React from 'react';
-import PokedexPage from '../src/Pages/PokedexPage';
-import PokemonDetailPage from '../src/Pages/PokemonDetailPage';
-import PokemonsListPage from '../src/Pages/PokemonListPage';
+import PokedexPage from './Pages/PokedexPage/PokedexPage';
+import PokemonDetailPage from './Pages/PokemonDetailPage/PokemonDetailPage';
+import PokemonsListPage from './Pages/PokemonsListPage/PokemonsListPage';
+
 
 function App() {
   return (
