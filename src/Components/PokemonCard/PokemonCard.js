@@ -3,9 +3,10 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { goToDetailsPage } from "../../routes/coordinator";
-import { Container } from "./Card.styled";
+import PokemonCardStyle from './PokemonCardStyle';
 
-function Card(props) {
+
+function PokemonCard(props) {
   const { pokemonUrl, addToPokedex, removeFromPokedex } = props;
 
   // hook para saber nosso path atual
@@ -32,7 +33,7 @@ function Card(props) {
   };
 
   return (
-    <Container>
+    <PokemonCardStyle>
       <img src={pokemon.sprites?.front_default} alt={pokemon.name} />
       <div>
         {location.pathname === "/" ? (
@@ -49,8 +50,8 @@ function Card(props) {
           Ver detalhes
         </button>
       </div>
-    </Container>
+    </PokemonCardStyle>
   );
 }
 
-export default Card;
+export default PokemonCard;
