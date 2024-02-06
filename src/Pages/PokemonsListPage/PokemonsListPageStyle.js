@@ -1,11 +1,11 @@
-import React from 'react';
+import styled from "styled-components";
 
-const PokemonsListPageStyle = () => {
-    return (
-        <div>
-        
-        </div>
-    );
-};
+const PokemonListPageStyled = styled.div`
+  section {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 8px;
+  }
+`;
 
-export default PokemonsListPageStyle;
+export default PokemonListPageStyled
