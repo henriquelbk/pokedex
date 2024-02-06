@@ -1,6 +1,5 @@
 import { Header } from "../../Components/Header/Header";
 
-
 function NotFoundPage(props) {
   return (
     <div>
