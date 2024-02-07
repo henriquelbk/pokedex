@@ -14,9 +14,9 @@ export const Header = () => {
                 return (
                     <>
                     <button onClick={() => goToPokedexPage(navigate)}>
-                        Ver pokedex
+                        Ver Pokedex
                     </button>
-                     <span>Lista de pokemons</span>                     
+                     <span>Lista de Pokemons</span>                     
                     </>
                 );
             case '/pokedex':
