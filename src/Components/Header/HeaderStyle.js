@@ -15,6 +15,8 @@ export const HeaderStyle = styled.header`
         left: 0;
         height: 30px;
         padding: 0 4px;
+        background-color:orange;
+        border-radius: 2px
     }
 
 `;
