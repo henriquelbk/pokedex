@@ -19,6 +19,8 @@ const PokemonCardStyle = styled.div`
         button {
             width: 50%;
             height: 40px;
+            background-color:orange;
+            border-radius: 2px
         }
     }
 `
