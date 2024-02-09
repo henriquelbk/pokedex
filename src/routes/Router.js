@@ -46,9 +46,9 @@ function Router() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<PokedexPage />} />
-        <Route path="/pokedex" element={<PokemonDetailPage />} />
-        <Route path="*" element={<PokemonsListPage />} />
+        <Route path="/" element={<PokemonsListPage />} />
+        <Route path="/pokedex" element={<PokedexPage />} />
+        <Route path="*" element={<PokemonDetailPage />} />
       </Routes>
     </BrowserRouter>
   );
