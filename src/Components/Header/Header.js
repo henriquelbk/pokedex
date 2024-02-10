@@ -16,7 +16,7 @@ export const Header = () => {
                     <button onClick={() => goToPokedexPage(navigate)}>
                         Ver Pokedex
                     </button>
-                     <span>Lista de Pokemons</span>                     
+                     <span>POKEMONS</span>                     
                     </>
                 );
             case '/pokedex':
@@ -25,7 +25,7 @@ export const Header = () => {
                       <button onClick={() => goToHomePage(navigate)}>
                         Ver lista de pokemons
                       </button>
-                      <span>Pokedex</span>
+                      <span>POKEDEX</span>
                     </>
                   );
             default:
