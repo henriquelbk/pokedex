@@ -3,8 +3,7 @@ import { Header } from '../../Components/Header/Header';
 import PokemonCard from '../../Components/PokemonCard/PokemonCard';
 import { BASE_URL } from '../../constants/url';
 import { useContext } from 'react';
-import GlobalContext
-from '../../contexts/GlobalContext';
+import GlobalContext from '../../contexts/GlobalContext';
 
 
 const PokedexPage = () => {
@@ -24,7 +23,6 @@ const PokedexPage = () => {
                         />
                     ))}
             </section>
-            <PokemonCard />
         </PokedexPageStyle>
     );
 };

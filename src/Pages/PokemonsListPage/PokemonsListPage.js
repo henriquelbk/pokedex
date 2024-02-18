@@ -29,7 +29,6 @@ const PokemonsListPage = () => {
             />    
         ))}
       </section>
-      <PokemonCard />
     </PokemonsListPageStyled>
   );
 };

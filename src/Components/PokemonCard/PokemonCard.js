@@ -20,7 +20,7 @@ function PokemonCard(props) {
   // guarda, porque ainda não renderizamos
   useEffect(() => {
     fetchPokemon();
-  }, []);
+  });
 
   const fetchPokemon = async () => {
     try {
