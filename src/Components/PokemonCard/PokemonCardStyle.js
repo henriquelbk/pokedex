@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 const PokemonCardStyle = styled.div`
-    background-color: lightgrey;
+    /* background-color: lightgrey;
     border: 2px solid black;
     border-radius: 8px;
     display: flex;
@@ -31,7 +31,9 @@ const PokemonCardStyle = styled.div`
         opacity: 0.6;
         }
         
-    }
+    } */
+
+
 `
 
 export default PokemonCardStyle;
