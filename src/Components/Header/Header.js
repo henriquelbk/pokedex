@@ -5,7 +5,6 @@ import { HeaderStyle } from "../Header/HeaderStyle";
 export const Header = () => {
     
     const location = useLocation();
-
     const navigate = useNavigate();
 
     const renderHeader = () => {
@@ -16,7 +15,7 @@ export const Header = () => {
                     <button onClick={() => goToPokedexPage(navigate)}>
                         Ver Pokedex
                     </button>
-                     <span>POKEMONS</span>                     
+                     <img src="image 1.svg" alt="Pokemon"></img>                 
                     </>
                 );
             case '/pokedex':
