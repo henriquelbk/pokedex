@@ -43,4 +43,16 @@ top: 21px;
 
 background: url(image.png); */
 
+.logo {
+
+position: absolute;
+width: 307px;
+height: 113px;
+left: 566px;
+top: 21px;
+
+background-image: url(image1.png);
+
+}
+
 `;

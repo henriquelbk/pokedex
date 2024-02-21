@@ -15,7 +15,7 @@ export const Header = () => {
                     <button onClick={() => goToPokedexPage(navigate)}>
                         Ver Pokedex
                     </button>
-                     <img src="image 1.svg" alt="Pokemon"></img>                 
+                     <img id="logo" src="image1.png" alt="Pokemon"/> 
                     </>
                 );
             case '/pokedex':
