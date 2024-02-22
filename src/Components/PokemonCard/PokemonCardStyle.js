@@ -32,7 +32,26 @@ const PokemonCardStyle = styled.div`
         }
         
     } */
+    button {
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 10px;
+color: #FFFFFF;
+font-weight: bold;
+position: absolute;
+background: #33A4F5;
+border-radius: 8px;
+border: solid transparent
+}
 
+button:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    transition: .3s;
+}
 
 `
 
