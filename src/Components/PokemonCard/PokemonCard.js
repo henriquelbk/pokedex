@@ -46,7 +46,7 @@ function PokemonCard(props) {
           </button>
         )}
 
-        <button onClick={() => goToDetailsPage(navigate, pokemon.name)}>
+        <button id='detalhes' onClick={() => goToDetailsPage(navigate, pokemon.name)}>
           Ver detalhes
         </button>
       </div>

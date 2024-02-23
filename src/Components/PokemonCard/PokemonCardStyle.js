@@ -53,6 +53,11 @@ button:hover {
     transition: .3s;
 }
 
+#detalhes {
+    background-color: transparent;
+    text-decoration: underline;
+
+}
 `
 
 export default PokemonCardStyle;
