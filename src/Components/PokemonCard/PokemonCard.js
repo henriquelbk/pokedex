@@ -35,13 +35,13 @@ function PokemonCard(props) {
   return (
     <PokemonCardStyle>
       <img src={pokemon.sprites?.front_default} alt={pokemon.name} />
-      <div>
+      <div id='container'>
         {location.pathname === "/" ? (
-          <button onClick={() => addToPokedex(pokemon)}>
+          <button id='add' onClick={() => addToPokedex(pokemon)}>
             Adicionar à Pokedex
           </button>
         ) : (
-          <button onClick={() => removeFromPokedex(pokemon)}>
+          <button id='remove' onClick={() => removeFromPokedex(pokemon)}>
             Remover da Pokedex
           </button>
         )}
