@@ -38,11 +38,11 @@ function PokemonCard(props) {
       <div id='container'>
         {location.pathname === "/" ? (
           <button id='add' onClick={() => addToPokedex(pokemon)}>
-            Adicionar à Pokedex
+            Capturar
           </button>
         ) : (
           <button id='remove' onClick={() => removeFromPokedex(pokemon)}>
-            Remover da Pokedex
+            Remover
           </button>
         )}
 

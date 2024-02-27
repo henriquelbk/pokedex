@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 const PokemonCardStyle = styled.div`
     
-position: absolute;
+position: relative;
 width: 440px;
 height: 266px;
 
