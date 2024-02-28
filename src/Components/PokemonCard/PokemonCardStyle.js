@@ -6,11 +6,12 @@ position: relative;
 width: 440px;
 height: 266px;
 
-
-
  #container {
     display: flex;
-
+    align-items: center;
+    height: 50vh;
+    justify-content: center;
+    border: 1px solid black;
  }
 
 button:hover {
@@ -21,21 +22,19 @@ button:hover {
 
 #add {
 display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
 padding: 4px 10px;
+padding-left: 10px;
 color: #FFFFFF;
 font-weight: bold;
-position: absolute;
 background: #33A4F5;
 border-radius: 8px;
 border: transparent
 }
 #detalhes {
-    position: absolute;
+    padding-right: 200px;
     background-color: transparent;
     text-decoration: underline;
+    border: transparent;
 }
 #remove {
     

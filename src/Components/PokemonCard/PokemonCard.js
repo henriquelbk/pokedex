@@ -36,6 +36,9 @@ function PokemonCard(props) {
     <PokemonCardStyle>
       <img src={pokemon.sprites?.front_default} alt={pokemon.name} />
       <div id='container'>
+        <button id='detalhes' onClick={() => goToDetailsPage(navigate, pokemon.name)}>
+          Ver detalhes
+        </button>
         {location.pathname === "/" ? (
           <button id='add' onClick={() => addToPokedex(pokemon)}>
             Capturar
@@ -46,9 +49,7 @@ function PokemonCard(props) {
           </button>
         )}
 
-        <button id='detalhes' onClick={() => goToDetailsPage(navigate, pokemon.name)}>
-          Ver detalhes
-        </button>
+        
       </div>
     </PokemonCardStyle>
   );
