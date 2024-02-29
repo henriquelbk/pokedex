@@ -27,7 +27,7 @@ padding-left: 10px;
 color: #FFFFFF;
 font-weight: bold;
 background: #33A4F5;
-border-radius: 8px;
+border-radius: 15px;
 border: transparent
 }
 #detalhes {
