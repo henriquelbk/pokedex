@@ -36,7 +36,7 @@ border: solid transparent
 
 button:hover {
     cursor: pointer;
-    opacity: 0.6;
+    opacity: 0.7;
     transition: .3s;
 }
 /* Frame 5 */
